@@ -115,5 +115,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# current repo
+# exclude everything
 output/*
+
+# exception to the rule
+!output/.gitkeep 
